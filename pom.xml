@@ -18,6 +18,13 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	
+	<distributionManagement>
+		<repository>
+			<id>soa12c</id>
+			<url>http://gl-spring-app:8081/repository/soa12c/</url>
+		</repository>
+	</distributionManagement>
 
 	<dependencies>
 		<dependency>
